@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "id": "cspm-executive",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cloud-accounts",
+          "name": "Cloud Accounts",
+          "type": "pie",
+          "data": {
+            "connected": 2,
+            "notConnected": 2,
+            "total": 4
+          }
+        },
+        {
+          "id": "risk-assessment",
+          "name": "Cloud Account Risk Assessment",
+          "type": "donut",
+          "data": {
+            "failed": 1689,
+            "warning": 681,
+            "notAvailable": 36,
+            "passed": 7253
+          }
+        }
+      ]
+    },
+    {
+      "id": "cwpp-dashboard",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "namespace-alerts",
+          "name": "Top 5 Namespace Specific Alerts",
+          "type": "text",
+          "data": "No Graph data available!"
+        },
+        {
+          "id": "workload-alerts",
+          "name": "Workload Alerts",
+          "type": "text",
+          "data": "No Graph data available!"
+        }
+      ]
+    },
+    {
+      "id": "registry-scan",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "image-risk",
+          "name": "Image Risk Assessment",
+          "type": "progress",
+          "data": {
+            "total": 1470,
+            "critical": 9,
+            "high": 150,
+            "medium": 400,
+            "low": 911
+          }
+        },
+        {
+          "id": "security-issues",
+          "name": "Image Security Issues",
+          "type": "progress",
+          "data": {
+            "total": 2,
+            "critical": 2,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+          }
+        }
+      ]
+    }
+  ]
+}
