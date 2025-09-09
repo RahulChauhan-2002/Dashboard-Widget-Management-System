@@ -16,9 +16,40 @@ A dynamic dashboard application built with React, Redux Toolkit, and Tailwind CS
 - Node.js (v14 or higher)
 - npm or yarn
 
-## Installation
+## Steps to locally run the application
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd dashboard-app
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/RahulChauhan-2002/Dashboard-Widget-Management-System.git
+    cd Dashboard-Widget-Management-System
+    ```
+
+2. **Install dependencies**
+    - Using npm:
+      ```bash
+      npm install
+      ```
+    - Or using yarn:
+      ```bash
+      yarn install
+      ```
+
+3. **Start the development server**
+    - Using npm:
+      ```bash
+      npm start
+      ```
+    - Or using yarn:
+      ```bash
+      yarn start
+      ```
+
+4. **Open the application in your browser**
+    - Visit `http://localhost:3000` to view the dashboard.
+
+> **Note:**  
+> No additional environment configuration or backend setup is required for running the frontend application locally. If you face any issues, ensure your Node.js and npm/yarn versions meet the prerequisites.
+
+## License
+
+[MIT](LICENSE)
