@@ -1,5 +1,8 @@
 # Dashboard Widget Management System
 
+## 🚀 Live Demo
+Access the deployed app here: [Dashboard Widget Management System](https://dashboard-widget-management-system.onrender.com)
+
 A dynamic dashboard application built with React, Redux Toolkit, and Tailwind CSS that allows users to manage widgets across different categories.
 
 ## Features
